@@ -20,4 +20,4 @@ wget https://swift.org/builds/swift-5.3-branch/ubuntu2004/swift-5.3-DEVELOPMENT-
 tar -xzf swift-5.3-DEVELOPMENT-SNAPSHOT-2020-11-11-a-ubuntu20.04.tar.gz
 rm /home/swift-5.3-DEVELOPMENT-SNAPSHOT-2020-11-11-a-ubuntu20.04.tar.gz
 mv /home/swift-5.3-DEVELOPMENT-SNAPSHOT-2020-11-11-a-ubuntu20.04 /usr/share/swift
-echo "export PTH=/usr/share/swift/usr/bin:$PATH" >> ~/.bashrc
+echo "export PATH=/usr/share/swift/usr/bin:$PATH" >> ~/.bashrc
