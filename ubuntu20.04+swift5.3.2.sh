@@ -13,7 +13,7 @@ apt-get install \
           libz3-dev \
           pkg-config \
           tzdata \
-          zlib1g-dev
+          zlib1g-dev -y
 
 cd /home
 wget https://swift.org/builds/swift-5.3-branch/ubuntu2004/swift-5.3-DEVELOPMENT-SNAPSHOT-2020-11-11-a/swift-5.3-DEVELOPMENT-SNAPSHOT-2020-11-11-a-ubuntu20.04.tar.gz
